@@ -7,13 +7,13 @@ import axios from 'axios';
 
 const [players, setPlayers] = useState([]);
 
-// Does app crash?
-// it('renders without crashing', () => {
-//   const wrapper = rtl.render(
-//   <App />
-//   );
-//   console.log(wrapper.debug());
-// });
+//Does app crash?
+it('renders without crashing', () => {
+  const wrapper = rtl.render(
+  <App />
+  );
+  console.log(wrapper.debug());
+});
 
 // Does players API call return something?
 it('returns data from axios get', () => {
